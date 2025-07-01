@@ -17,11 +17,11 @@ To understand the A/B testing process using a simulated dataset and evaluate whe
    - Version B: 10,000 visitors --> 12% click rate
 
 2. **Statistical Testing**
-   - Z-Test for two proportions to determine statistical significance
-   - Confidence Intervals for CTR estimates
+   - Z-Test for two proportions to determine the statistical significance in CTR
+   - 95% Confidence Intervals for CTR estimates
 
 3. **Visualization**
-   - CTR with 95% Confidence Intervals for both versions
+   - Bar chart comparing the CTR with 95% Confidence Intervals for both versions
 
 ## Insights
 - The Z-test yielded a p-value of 0.0000, indicating a statistically significant difference between Version A and B.
@@ -34,5 +34,5 @@ To understand the A/B testing process using a simulated dataset and evaluate whe
 ## What I Learned
 - Basics of A/B testing, statistical significance, and interpretation
 - How to simulate experimental data in Python
-- Use of Z-test for comparing conversion rates
+- Use of Z-test for comparing conversion rates or proportions
 - Confidence interval estimation and visualization
